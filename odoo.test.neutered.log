@@ -1,0 +1,58 @@
+2022-11-19 13:05:07,703 2797706 INFO db5 odoo.modules.loading: loading 1 modules... 2022-11-19 13:05:07,710 2797706 INFO db5 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-11-19 13:05:07,711 2073369 INFO db6 werkzeug: 88.000.000.000 - - [19/Nov/2022 13:05:07] "POST /mail/thread/data HTTP/1.0" 200 - 27 0.007 0.007
+2022-11-19 13:05:07,719 2797706 INFO db5 odoo.modules.loading: loading 309 modules... 
+2022-11-19 13:05:07,810 2797706 INFO db5 odoo.modules.loading: 309 modules loaded in 0.09s, 0 queries (+0 extra) 
+2022-11-19 13:05:08,023 2797706 INFO db5 odoo.modules.loading: Modules loaded. 
+2022-11-19 13:05:08,030 2797706 INFO db5 odoo.modules.registry: Registry loaded in 0.334s 
+2022-11-19 13:05:08,051 2797706 INFO db5 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-11-19 13:05:08,054 2797706 INFO db5 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-11-19 13:05:08,057 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 3 connections to 'application_name=odoo-2797706 sslmode=prefer dbname=db5' 
+2022-11-19 13:05:08,080 2797706 INFO db4 odoo.modules.loading: loading 1 modules... 
+2022-11-19 13:05:08,087 2797706 INFO db4 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-11-19 13:05:08,093 2797706 INFO db4 odoo.modules.loading: loading 167 modules... 
+2022-11-19 13:05:08,146 2797706 INFO db4 odoo.modules.loading: 167 modules loaded in 0.05s, 0 queries (+0 extra) 
+2022-11-19 13:05:08,181 1661888 INFO compras6 werkzeug: 77.000.000.000 - - [19/Nov/2022 13:05:08] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.0" 200 - 15 0.004 0.006
+2022-11-19 13:05:08,289 2797706 INFO db4 odoo.modules.loading: Modules loaded. 
+2022-11-19 13:05:08,293 2797706 INFO db4 odoo.modules.registry: Registry loaded in 0.221s 
+2022-11-19 13:05:08,310 2797706 INFO db4 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-11-19 13:05:08,314 2797706 INFO db4 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-11-19 13:05:08,317 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 3 connections to 'application_name=odoo-2797706 sslmode=prefer dbname=db4' 
+2022-11-19 13:05:08,339 2797706 INFO db3 odoo.modules.loading: loading 1 modules... 
+2022-11-19 13:05:08,341 2073369 INFO db2 werkzeug: 81.000.000.000 - - [19/Nov/2022 13:05:08] "POST /shop/product/extra-images HTTP/1.0" 200 - 29 0.006 0.173
+2022-11-19 13:05:08,345 2797706 INFO db3 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-11-19 13:05:08,349 2797706 INFO db3 odoo.modules.loading: loading 134 modules... 
+2022-11-19 13:05:08,395 2797706 INFO db3 odoo.modules.loading: 134 modules loaded in 0.05s, 0 queries (+0 extra) 
+2022-11-19 13:05:08,518 2797706 INFO db3 odoo.modules.loading: Modules loaded. 
+2022-11-19 13:05:08,522 2797706 INFO db3 odoo.modules.registry: Registry loaded in 0.189s 
+2022-11-19 13:05:08,537 2797706 INFO db3 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-11-19 13:05:08,540 2797706 INFO db3 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-11-19 13:05:08,543 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 3 connections to 'application_name=odoo-2797706 sslmode=prefer dbname=db3' 
+2022-11-19 13:05:08,551 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 0 connections  
+2022-11-19 13:05:08,557 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 0 connections  
+2022-11-19 13:05:08,564 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 0 connections  
+2022-11-19 13:05:08,570 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 0 connections  
+2022-11-19 13:05:08,576 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 0 connections  
+2022-11-19 13:05:08,583 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 0 connections  
+2022-11-19 13:05:08,589 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 0 connections  
+2022-11-19 13:05:08,596 2797706 INFO ? odoo.sql_db: ConnectionPool(used=1/count=1/max=32): Closed 0 connections  
+2022-11-19 13:05:08,617 2797706 INFO db1 odoo.modules.loading: loading 1 modules... 
+2022-11-19 13:05:08,622 2797706 INFO db1 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-11-19 13:05:08,626 2797706 INFO db1 odoo.modules.loading: loading 82 modules... 
+2022-11-19 13:05:08,660 2797706 INFO db1 odoo.modules.loading: 82 modules loaded in 0.03s, 0 queries (+0 extra) 
+2022-11-19 13:05:08,702 2073369 INFO db2 werkzeug: 81.000.000.000 - - [19/Nov/2022 13:05:08] "GET /shop/product-5 HTTP/1.0" 200 - 70 0.012 0.032
+2022-11-19 13:05:08,740 2797706 INFO db1 odoo.modules.loading: Modules loaded. 
+2022-11-19 13:05:08,744 2797706 INFO db1 odoo.modules.registry: Registry loaded in 0.133s 
+2022-11-19 13:05:08,755 2797706 INFO db1 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-11-19 13:05:08,759 2797706 INFO db1 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-11-19 13:05:08,764 2797706 INFO db1 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2022-11-19 13:05:08,766 2797706 INFO db1 odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2022-11-19 13:05:08,770 2797706 INFO db1 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2022-11-19 13:05:08,772 2797706 INFO db1 odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2022-11-19 13:05:08,775 2797706 INFO db1 odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2022-11-19 13:05:08,777 2797706 INFO db1 odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2022-11-19 13:05:08,781 2797706 INFO db1 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2022-11-19 13:05:08,784 2797706 INFO db1 odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2022-11-19 13:05:08,787 2797706 INFO db1 odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2022-11-19 13:05:08,789 2797706 INFO db1 odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2022-11-19 13:05:08,792 2797706 INFO db1 odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2022-11-19 13:05:08,794 2797706 INFO db1 odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
