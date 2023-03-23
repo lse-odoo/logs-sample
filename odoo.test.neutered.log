@@ -40,7 +40,7 @@
 2022-11-19 13:05:08,626 2797706 INFO db1 odoo.modules.loading: loading 82 modules... 
 2022-11-19 13:05:08,660 2797706 INFO db1 odoo.modules.loading: 82 modules loaded in 0.03s, 0 queries (+0 extra) 
 2022-11-19 13:05:08,702 2073369 INFO db2 werkzeug: 81.000.000.000 - - [19/Nov/2022 13:05:08] "GET /shop/product-5 HTTP/1.0" 200 - 70 0.012 0.032
-2022-11-19 13:05:08,738 2100011 INFO mtsw-beer-bear werkzeug: 109.00.00.00 - - [19/Nov/2022 13:05:08] "GET /shop/beer-1 HTTP/1.0" 500 - 7 0.002 0.005
+2022-11-19 13:05:08,738 2100011 INFO db1 werkzeug: 109.00.00.00 - - [19/Nov/2022 13:05:08] "GET /shop/beer-1 HTTP/1.0" 500 - 7 0.002 0.005
 ValueError: Expected singleton: ir.ui.view(1862, 1775)
     raise ValueError("Expected singleton: %s" % self)
   File "/home/odoo/src/odoo/16.0/odoo/models.py", line 5125, in ensure_one
@@ -78,7 +78,7 @@ ValueError: too many values to unpack (expected 1)
     _id, = self._ids
   File "/home/odoo/src/odoo/16.0/odoo/models.py", line 5122, in ensure_one
 Traceback (most recent call last):
-2023-11-19 13:05:08,739 2100011 ERROR mtsw-beer-bear odoo.http: Exception during request handling. 
+2023-11-19 13:05:08,739 2100011 ERROR db1 odoo.http: Exception during request handling. 
 2022-11-19 13:05:08,740 2797706 INFO db1 odoo.modules.loading: Modules loaded. 
 2022-11-19 13:05:08,744 2797706 INFO db1 odoo.modules.registry: Registry loaded in 0.133s 
 2022-11-19 13:05:08,755 2797706 INFO db1 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
