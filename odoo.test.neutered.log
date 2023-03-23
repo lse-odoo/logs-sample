@@ -11,7 +11,7 @@
 2022-11-19 13:05:08,087 2797706 INFO db4 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
 2022-11-19 13:05:08,093 2797706 INFO db4 odoo.modules.loading: loading 167 modules... 
 2022-11-19 13:05:08,146 2797706 INFO db4 odoo.modules.loading: 167 modules loaded in 0.05s, 0 queries (+0 extra) 
-2022-11-19 13:05:08,181 1661888 INFO compras6 werkzeug: 77.000.000.000 - - [19/Nov/2022 13:05:08] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.0" 200 - 15 0.004 0.006
+2022-11-19 13:05:08,181 1661888 INFO db6 werkzeug: 77.000.000.000 - - [19/Nov/2022 13:05:08] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.0" 200 - 15 0.004 0.006
 2022-11-19 13:05:08,289 2797706 INFO db4 odoo.modules.loading: Modules loaded. 
 2022-11-19 13:05:08,293 2797706 INFO db4 odoo.modules.registry: Registry loaded in 0.221s 
 2022-11-19 13:05:08,310 2797706 INFO db4 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
@@ -40,6 +40,45 @@
 2022-11-19 13:05:08,626 2797706 INFO db1 odoo.modules.loading: loading 82 modules... 
 2022-11-19 13:05:08,660 2797706 INFO db1 odoo.modules.loading: 82 modules loaded in 0.03s, 0 queries (+0 extra) 
 2022-11-19 13:05:08,702 2073369 INFO db2 werkzeug: 81.000.000.000 - - [19/Nov/2022 13:05:08] "GET /shop/product-5 HTTP/1.0" 200 - 70 0.012 0.032
+2022-11-19 13:05:08,738 2100011 INFO mtsw-beer-bear werkzeug: 109.00.00.00 - - [19/Nov/2022 13:05:08] "GET /shop/beer-1 HTTP/1.0" 500 - 7 0.002 0.005
+ValueError: Expected singleton: ir.ui.view(1862, 1775)
+    raise ValueError("Expected singleton: %s" % self)
+  File "/home/odoo/src/odoo/16.0/odoo/models.py", line 5125, in ensure_one
+    record.ensure_one()
+  File "/home/odoo/src/odoo/16.0/odoo/fields.py", line 1132, in __get__
+    view_track = request.website.viewref("website_sale.product").track
+  File "/home/odoo/src/odoo/16.0/addons/website_sale/controllers/main.py", line 668, in _prepare_product_values
+    values = super(WebsiteSale, self)._prepare_product_values(product, category, search, **kwargs)
+  File "/home/odoo/src/odoo/16.0/addons/website_sale_product_configurator/controllers/main.py", line 42, in _prepare_product_values
+    values = super()._prepare_product_values(product, category, search, **kwargs)
+  File "/home/odoo/src/odoo/16.0/addons/website_sale_stock/controllers/main.py", line 53, in _prepare_product_values
+    return request.render("website_sale.product", self._prepare_product_values(product, category, search, **kwargs))
+  File "/home/odoo/src/odoo/16.0/addons/website_sale/controllers/main.py", line 488, in product
+    result = endpoint(self, *args, **params_ok)
+  File "/home/odoo/src/odoo/16.0/odoo/http.py", line 699, in route_wrapper
+    result = endpoint(**request.params)
+  File "/home/odoo/src/odoo/16.0/odoo/addons/base/models/ir_http.py", line 149, in _dispatch
+    response = super()._dispatch(endpoint)
+  File "/home/odoo/src/odoo/16.0/addons/website/models/ir_http.py", line 235, in _dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+  File "/home/odoo/src/odoo/16.0/odoo/http.py", line 1724, in dispatch
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/home/odoo/src/odoo/16.0/odoo/http.py", line 1611, in _serve_ir_http
+    result = func()
+  File "/home/odoo/src/odoo/16.0/odoo/service/model.py", line 134, in retrying
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "/home/odoo/src/odoo/16.0/odoo/http.py", line 1584, in _serve_db
+    response = request._serve_db()
+  File "/home/odoo/src/odoo/16.0/odoo/http.py", line 1988, in __call__
+Traceback (most recent call last):
+
+During handling of the above exception, another exception occurred:
+
+ValueError: too many values to unpack (expected 1)
+    _id, = self._ids
+  File "/home/odoo/src/odoo/16.0/odoo/models.py", line 5122, in ensure_one
+Traceback (most recent call last):
+2023-11-19 13:05:08,739 2100011 ERROR mtsw-beer-bear odoo.http: Exception during request handling. 
 2022-11-19 13:05:08,740 2797706 INFO db1 odoo.modules.loading: Modules loaded. 
 2022-11-19 13:05:08,744 2797706 INFO db1 odoo.modules.registry: Registry loaded in 0.133s 
 2022-11-19 13:05:08,755 2797706 INFO db1 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
